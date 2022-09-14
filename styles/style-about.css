@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #232340;
+    background-image: url(/img/Path1.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.sobre .sobre__cabecalho {
+    padding: 5% 8.5% 10% 8.5%;
+    
+}
+
+.sobre .sobre__numero {    
+    color: #8B8B8B;
+    font-size: 26px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 15em;
+}
+
+.sobre .sobre__texto-titulo {
+    display: inline;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 20px;
+    
+}
+
+.sobre__titulo {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 4rem;
+    color: white;
+    margin: 10% 40% 10% 0;
+    margin-left: 6em;
+
+}
+
+.anos {
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.imagem__computador-logo {
+    width: 500px;
+    height: 900px;
+}
+
+.lista__anos-numeros {
+    list-style-type: none;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100px;
+    color: #8b8b8b98;
+}
+
+.sobre__descricao {
+    margin-left: 3em;    
+    justify-content: space-around;
+       
+}
+
+.sobre__descricao-titulo {    
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 100px;    
+}
+
+.sobre__texto {
+    margin-top: 30px;
+    color: #8B8B8B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 60px; 
+}
+
+.numero__grande {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 239px;
+    color: #FFFFFF;
+    text-align: end;
+    
+}
+
+.texto__grande {
+    color: #FFFFFF;
+    height: 32px;
+    left: 15.1%;
+    right: 15.1%;
+    top: calc(50% - 32px/2 + 103px);
+    text-align: end;
+    margin-right: 45px;
+}
+
+.botao__contato a {
+    margin-left: 70px;
+}
+
+.botao__contato {
+    background-color: #5468E7;
+    padding: 20px 80px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 8px;
+    
+}

@@ -33,7 +33,7 @@ body {
 }
 
 .principal__container {
-    background-image: url(img/Path.svg);
+    background-image: url(/img/Path.svg);
 }
 
 
@@ -61,9 +61,6 @@ body {
 
 }
 
-.imagem__principal {
-    background-image: url(img/);
-}
 
 .botao__scroll {
     font-weight: 600;

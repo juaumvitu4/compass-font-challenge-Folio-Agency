@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    background-image: url(/img/Path1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sobre .sobre__cabecalho {
+    padding: 5% 8.5% 10% 8.5%;    
+    
+}
+
+.sobre .sobre__numero {           
+    color: #8B8B8B;
+    font-size: 26px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 15em;
+}
+
+.sobre .sobre__texto-titulo {
+    display: inline;
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 20px;
+    
+}
+
+.sobre__titulo {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 4rem;
+    color: black;
+    margin: 10% 40% 10% 0;
+    margin-left: 6em;
+
+}
+
+.cartao__um {
+    width: 128px;
+    height: 128px;
+    left: 218px;
+    top: 3354px;
+    
+}

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;      
+    background-image: url(/img/phone-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #5468E7;
+    
+    
+}
+
+.sobre .sobre__cabecalho {
+    padding: 5% 8.5% 10% 8.5%;    
+    
+}
+
+.logo__cabecalho {
+    margin-left: 7em;
+}
+
+.sobre .sobre__numero {     
+    font-size: 18px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 20em;
+    color: #FFFFFF;
+}
+
+.sobre .sobre__texto-titulo {
+    display: inline;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+    
+}
+
+.sobre__titulo {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 4rem;
+    color: black;
+    margin: 4% 24% 3% 0px;
+    margin-left: 3em;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto__meio-titulo {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 1em 4em;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.botao__aplicar {
+    background-color: #FFFFFF;
+    padding: 20px 80px;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: #5468E7;
+    border-radius: 8px;
+    margin: 0 2em 0 28em;
+    
+}
+

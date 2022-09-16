@@ -74,6 +74,7 @@ body {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
+    margin-right: 2em;
 }
 
 .texto__descricao {
@@ -171,6 +172,8 @@ body {
         flex-direction: column;
         justify-content: space-between;
         height: 80%;
+        position: relative;
+        right: 3em;
     }
 
     .imagem__bento-2 {
@@ -178,6 +181,17 @@ body {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        position: relative;
+        right: 6.4em;
+    }
+
+    .bento__vol3 {
+        width: 400px;
+        height: 300px;
+    }
+
+    .bento__vol2 {
+        width: 400px;
     }
 
     .sapiens__man-1 {
@@ -206,5 +220,9 @@ body {
     
     .seta_avancar {
         width: 70px;
+    }
+
+    .folio__rodape-imagem {
+        margin-right: 23em;
     }
 }

@@ -41,6 +41,11 @@ body {
     
 }
 
+.link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .principal__titulo {
     background-image: url(/img/Path.svg);
     display: flex;
@@ -61,6 +66,7 @@ body {
     border-radius: 8px;
     color: white;
     background-color: #5468E7;
+    border: 1px solid #5468E7;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -117,6 +123,15 @@ body {
         justify-content: space-around;
     }
 
+    .botao__contato {
+        display: none;
+    }
+
+    .folio__cabecalho {
+        width: 20%;
+        margin-top: 1em;
+    }
+
     .link__lista {
         display: none;
         
@@ -141,5 +156,23 @@ body {
         width: 100px;
         height: 56px;
     }
+    
+    .folio__rodape-imagem {
+        margin-left: 23em;
+    }
 
+}
+
+@media screen and (max-width: 320px) {
+    .botao__contato {
+        display: none;
+    }
+
+    .sobre__lista {
+        display: none;
+    }
+
+    .logo__folio {
+        margin-right: 4em;
+    }
 }

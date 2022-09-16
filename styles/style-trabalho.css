@@ -226,10 +226,19 @@ body {
         margin-left: 2em;
     }
 
+    .rodape__final {
+        margin-right: 20em;
+    }
+
     .numero__grande {
         margin: 2px;
     }
     .status__titulo {
         margin: 0;
+    }
+
+    .folio__rodape-imagem {
+        margin-left: 23em;
+
     }
 }

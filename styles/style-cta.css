@@ -26,7 +26,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     display: inline;
-    margin-left: 30em;
+    margin-left: 35em;
     color: #FFFFFF;
 }
 
@@ -64,6 +64,7 @@ body {
 }
 
 .botao__aplicar {
+    
     background-color: #FFFFFF;
     padding: 20px 80px;
     font-weight: 600;
@@ -71,7 +72,7 @@ body {
     text-decoration: none;
     color: #5468E7;
     border-radius: 8px;
-    margin: 0 2em 0 38em;
+    margin: 0 2em 0 42em;
     
 }
 
@@ -89,7 +90,27 @@ body {
     width: 40px;
 }
 
+.copy {
+    font-size: 14px;
+    color: #ADADAD;
+    line-height: 18px;
+    font-weight: 600;
+}
+
 .seta_avancar {
     width: 70px;
 }
 
+@media screen and (max-width: 768px) {
+    .sobre .sobre__numero {
+        margin-left: 6em;
+    }
+
+    .texto__meio-titulo {
+        line-height: 50px;
+    }
+
+    .botao__aplicar {
+        margin-left: 15em;
+    }
+}

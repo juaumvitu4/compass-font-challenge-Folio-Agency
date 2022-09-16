@@ -12,7 +12,7 @@ body {
 }
 
 .sobre .sobre__cabecalho {
-    padding: 5% 8.5% 10% 8.5%;    
+    width: 100%;   
     
 }
 
@@ -63,7 +63,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 10px 10px #EDEDED;
-    margin-left: 50em;
+    margin-left: 70em;
     margin-bottom: 1em;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .titulo {
-    font-size: 110px;
+    font-size: 76px;
     font-weight: 700;
     line-height: 131.27px;
     color: #232340;
@@ -117,4 +117,40 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .sobre .sobre__cabecalho {
+        width: 100%;
+    }
+
+    .cartoes {
+        margin-left: 29em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .titulo {
+        margin-right: 3em;
+    }
+
+    .sobre .sobre__numero {
+        display: inline;
+        margin-right: 1em;
+        
+
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    .sobre__texto-titulo {
+        width: 100%;
+        margin-right: 5em;
+    }
+    .texto {
+        width: 500px;
+        font-size: 16px;
+    }
 }

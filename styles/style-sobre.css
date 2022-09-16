@@ -72,6 +72,7 @@ body {
     color: #8b8b8b98;
 }
 
+
 .sobre__descricao {
     margin-left: 3em;    
     justify-content: space-around;
@@ -170,5 +171,23 @@ body {
         line-height: 28px;
     }
 
+    .folio__rodape {
+        margin: 0;
+    }
 
+    .rodape__final {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:320px) {
+    .lista__anos {
+        display: none;
+    }
+
+    .botao__contato {
+        margin-left: -3em;
+    }
 }

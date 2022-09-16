@@ -11,13 +11,24 @@ body {
     
 }
 
+.imagem__bento{
+    position: relative;
+    top: 7em;
+}
+
+.sapiens__man {
+    position: relative;
+    top: 7em;
+}
+
+
 .sobre .sobre__cabecalho {
-    padding: 5% 8.5% 10% 8.5%;    
+    width: 100%;  
     
 }
 
 .sobre .sobre__numero {           
-    color: #8B8B8B;
+    color: #5468E7;
     font-size: 18px;
     font-weight: 600;
     display: inline;
@@ -26,35 +37,37 @@ body {
 
 .sobre .sobre__texto-titulo {
     display: inline;
-    color: black;
-    font-size: 18px;
+    color: #5468E7;
+    font-size: 16px;
+    line-height: 22px;
     font-weight: 600;
     margin: 20px;
     
 }
 
 .sobre__titulo {
-    font-size: 64px;
+    width: 100%;
+    font-size: 84px;
     font-weight: 700;
-    line-height: 4rem;
-    color: black;
-    margin: 4% 24% 3% 0px;
-    margin-left: 3em;
+    line-height: 72px;
+    color: #232340;
+    margin: 4% 0% 3% 0px;
+    margin-left: 1.5em;
 }
 
 .texto__descricao-titulo {
-    margin-left: 10em;
+    margin-left: 1em;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
 }
 
 .sobre__texto {
-    margin-left: 10em;
+    margin-left: 8em;
     font-weight: 400;
     font-size: 18px;
-    line-height: 32px;
-    color: rgba(0, 0, 0, 0.534);
+    line-height: 28px;
+    color: #606060;
 }
 
 .texto__sapiens {
@@ -73,6 +86,7 @@ body {
 
 .imagem {
     width: 40%;
+    margin-right: 20em;
    
 }
 
@@ -86,6 +100,24 @@ body {
     margin-left: 7em;
     
 }
+.setas__avancar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15em;
+
+}
+
+.seta__voltar {
+    margin-right: 3em;
+    margin-top: 11px;
+    width: 40px;
+}
+
+.seta_avancar {
+    width: 70px;
+}
+
 
 .imagem__pequena {
     width: 80%;
@@ -96,6 +128,12 @@ body {
     font-weight: 400;
     line-height: 32px;
     color: #606060;
+}
+
+.sapiens__man-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .bento__3d {
@@ -110,4 +148,63 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 100px;
+}
+
+@media screen and (min-width: 768px){
+    .sobre {
+        display: flex;  
+              
+    }
+    .imagem {
+        width: 50%;
+    }
+
+    .imagem__bento-titulo {
+        display: flex;
+        align-items: center;
+        margin-left: 10em;
+        
+    }
+
+    .imagem__bento {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+    }
+
+    .imagem__bento-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sapiens__man-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .texto__bento3d {
+        margin-left: 2em;
+    }
+
+    .setas__avancar {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    
+    .seta__voltar {
+        margin-right: 3em;
+        margin-top: 11px;
+        width: 40px;
+    }
+    
+    .seta_avancar {
+        width: 70px;
+    }
 }

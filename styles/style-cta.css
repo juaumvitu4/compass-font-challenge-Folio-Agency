@@ -26,7 +26,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     display: inline;
-    margin-left: 20em;
+    margin-left: 30em;
     color: #FFFFFF;
 }
 
@@ -71,7 +71,25 @@ body {
     text-decoration: none;
     color: #5468E7;
     border-radius: 8px;
-    margin: 0 2em 0 28em;
+    margin: 0 2em 0 38em;
     
+}
+
+.setas__avancar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7em;
+
+}
+
+.seta__voltar {
+    margin-right: 3em;
+    margin-top: 11px;
+    width: 40px;
+}
+
+.seta_avancar {
+    width: 70px;
 }
 

@@ -47,7 +47,8 @@ body {
 }
 
     
-.cartao__servicos{    
+.cartao__servicos{   
+    width: auto; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,6 +161,22 @@ body {
       
 }
 
+.setas__avancar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15em;
+}
+
+.seta__voltar {    
+    margin-top: 11px;
+    width: 40px;
+}
+
+.seta_avancar {
+    width: 70px;
+}
+
 .artigo__sapiens {
     margin-bottom: 100px;
 }
@@ -191,4 +208,28 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 100px;
+}
+
+@media screen and (min-width:768px) {
+    .cartao__servicos {
+        flex-direction: column;
+        height: 340px;
+        width: 25%;
+    }
+
+    .sobre__titulo {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 4rem;
+        color: black;
+        margin: 5% 0% 5% 0px;
+        margin-left: 2em;
+    }
+
+    .numero__grande {
+        margin: 2px;
+    }
+    .status__titulo {
+        margin: 0;
+    }
 }

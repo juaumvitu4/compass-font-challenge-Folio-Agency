@@ -17,7 +17,7 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 90%;
-    height: 60%;
+    height: 100%;
     background-color: #5468E7;
     border-radius: 48px;
 }
@@ -91,6 +91,8 @@ footer {
 
 .seta {
     margin-left: 20em;
+    width: 64px;
+    height: 64px;
     
 }
 
@@ -99,16 +101,23 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
+    margin: 20px;
 }
 
 
 .folio {
     height: 33%;
-    margin-left: 10em;
+    margin-left: 42em;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .rodape__final {
     margin-top: 40px;
+}
+
+.lista {
+    color: #5468E7;
 }
 
 .rodape__texto {
@@ -118,6 +127,8 @@ footer {
     color: #606060;
     text-align: center;
 }
+
+
 
 .navegacao a{
     text-decoration: none;
@@ -143,4 +154,43 @@ footer {
 
 .texto__seguir {
     margin-left: 15em;
+}
+
+.folio__rodape {
+    background-color: #FFFFFF;
+    width: 100%;
+
+}
+
+@media screen and (max-width:768px) {
+    footer{
+        margin-top: 0em;
+        margin-left: -1em;
+        width: 105%;
+    } 
+    
+    .texto__rodape {
+        font-size: 24px;
+    }
+
+    .projeto__titulo, .texto__menor {
+        font-size: 24px;
+    }
+
+    .seta {
+        margin-right: 3em;
+    }
+
+    .folio {
+        margin-left: 18em;
+    }
+
+    .botao__contato {
+        width: 134px;
+    }
+
+    .link__lista {
+        display: flex;
+    }
+    
 }

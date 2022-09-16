@@ -83,6 +83,21 @@ body {
 
 }
 
+.setas__avancar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15em;
+
+}
+
+.seta__voltar {
+    margin-left: 50em;
+    margin-top: 20px;
+    width: 40px;
+}
+
+
 .cartao__texto {
     color: #8B8B8B;
     font-weight: 400;
